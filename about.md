@@ -12,4 +12,6 @@ I'm a recent graduate student at Case. I love reading and writing code.
 
 <a href="https://www.linkedin.com/pub/wei-wang/57/1aa/329" target="_blank">LinkedIn</a>
 
+<a href="https://twitter.com/wxwcase" target="_blank">Twitter</a>
+
 <a href="http://www.facebook.com/wxwcase" target="_blank">Facebook</a>
