@@ -8,4 +8,5 @@ I'm a recent graduate student at Case. I love reading and writing code.
 
 ### Contact me
 
-[email@domain.com](mailto:weicwru@gmail.com)
+[weicwru@gmail.com](mailto:weicwru@gmail.com)
+[facebook](http://www.facebook.com/wxwcase)
