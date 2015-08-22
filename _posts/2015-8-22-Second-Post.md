@@ -1,3 +1,8 @@
+---
+layout: post
+title: You're up and running!
+---
+
 This is second post. 
 Use java code:
 ```java
