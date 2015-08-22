@@ -10,4 +10,6 @@ I'm a recent graduate student at Case. I love reading and writing code.
 
 [weicwru@gmail.com](mailto:weicwru@gmail.com)
 
-<a href="http://www.facebook.com/wxwcase" target="_blank">facebook</a>
+<a href="https://www.linkedin.com/pub/wei-wang/57/1aa/329" target="_blank">LinkedIn</a>
+
+<a href="http://www.facebook.com/wxwcase" target="_blank">Facebook</a>
