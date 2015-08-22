@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a recent graduate student at Case. I love reading and writing code. 
+I'm a recent graduate student at Case (2015). I love reading and writing code. 
 
 ### Contact me
 
