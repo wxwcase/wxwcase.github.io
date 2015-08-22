@@ -10,4 +10,4 @@ I'm a recent graduate student at Case. I love reading and writing code.
 
 [weicwru@gmail.com](mailto:weicwru@gmail.com)
 
-[facebook](http://www.facebook.com/wxwcase){:target="_blank"}
+[facebook](http://www.facebook.com/wxwcase) {:target="_blank"}
