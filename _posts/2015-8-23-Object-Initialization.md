@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Hello Code Snippet
+title: Object Initialization
 ---
 
 Nib-Based Initialization
