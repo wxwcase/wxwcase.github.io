@@ -3,13 +3,11 @@ layout: post
 title: Object Initialization
 ---
 
-<<<<<<< HEAD
 ### Nib-Based Initialization
 
 (nib: NeXTStep Interface Builder)
 =======
 #### Nib-Based Initialization Process
->>>>>>> f98cda7bc38b60fce79750b06a86df0d672ab557
 
 A nib file consists of the names of classes along with instructions for instantiating and initializing them. The running app ends up generating instances based on what you originally drew in the ._storyboard_ file or ._xib_ file.
 
