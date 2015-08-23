@@ -3,7 +3,7 @@ layout: post
 title: Object Initialization
 ---
 
-### Nib-Based Initialization
+#### Nib-Based Initialization Process
 
 A nib file consists of the names of classes along with instructions for instantiating and initializing them. The running app ends up generating instances based on what you originally drew in the ._storyboard_ file or ._xib_ file.
 
