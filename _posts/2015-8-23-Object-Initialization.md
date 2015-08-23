@@ -1,3 +1,8 @@
+---
+layout: post
+title: A Hello Code Snippet
+---
+
 Nib-Based Initialization
 ===
 
