@@ -14,7 +14,7 @@ UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDe
 
 #### What UIApplicationMain does:
 - UIApplication creates your app's first instance: the shared application instance:
-- 
+
 ```swift
 UIApplication.sharedApplication()
 ```
