@@ -38,12 +38,14 @@ UIApplication.sharedApplication()
 
 ### App Launch Without a storyboard
 Delete Main.storyboard and the ViewController.swift, and delete the entry in Targets->General->Deployment Info->Main Interface.
-In AppDelegate, _application:didFinishLaunchingWithOptions_, after added a new file (along with a _.xib_ file) called *MyViewController*:
+In AppDelegate, add the code below after added a new file (along with a _.xib_ file) called *MyViewController*:
 
 ```swift
-self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-self.window!.backgroundColor = UIColor.whiteColor()
-self.window!.rootViewController = MyViewController(nibName:"MyViewController", bundle: nil)
-self.window!.makeKeyAndVisible()
-return true
+func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    self.window!.backgroundColor = UIColor.whiteColor()
+    self.window!.rootViewController = MyViewController(nibName:"MyViewController", bundle: nil)
+    self.window!.makeKeyAndVisible()
+    return true
+}
 ```
