@@ -16,5 +16,6 @@ For example, if you create a button at a position in a ._xib_ or in the ._storyb
     b.titleLabel?.text = "SomeText"
     self.view.addSubview(b)
     
-Nib files are a source of instances, and those instances are brought into existence as the nib file is loaded.
-
+#### Nib File
+- Nib files are a source of instances, and those instances are brought into existence as the nib file is loaded.
+- A nib file is generated during the build process by compilation either from a ._xib_ file, which results in a single nib file, or from a ._storyboard_ file, which results in a .storyboardc bundle containing multiple nib files.
