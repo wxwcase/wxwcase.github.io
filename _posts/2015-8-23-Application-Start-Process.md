@@ -37,8 +37,8 @@ UIApplication.sharedApplication()
 - the initial view controller's view and its subviews
 
 ### App Launch Without a storyboard
-Delete Main.storyboard and the ViewController.swift, and delete the entry in Targets->General->Deployment Info->Main Interface
-In AppDelegate, _application:didFinishLaunchingWithOptions_:
+Delete Main.storyboard and the ViewController.swift, and delete the entry in Targets->General->Deployment Info->Main Interface.
+In AppDelegate, _application:didFinishLaunchingWithOptions_, after added a new file (along with a _.xib_ file) called *MyViewController*:
 
 ```swift
 self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
