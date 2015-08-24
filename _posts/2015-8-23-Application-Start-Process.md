@@ -27,3 +27,9 @@ UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDe
 - The window is about to appear. This causes the window to turn to its root view controller and tell it to obtain its main view, which will occupy and appear in the window. 
 	* If this view controller gets its view from a _.storyboard_ file or _.xib_ file, the corresponding nib is now loaded.
 	* Its objects are instantiated and initialized
+
+#### Initial Instances When App Loaed
+- the shared application instance 
+- the window 
+- the initial view controller
+- the initial view controller's view and its subviews
