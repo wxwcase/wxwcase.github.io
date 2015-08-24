@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Object Initialization
+title: Nib File and Object Initialization
 ---
 
 #### Nib-Based Initialization
