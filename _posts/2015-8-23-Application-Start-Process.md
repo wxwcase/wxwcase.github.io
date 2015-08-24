@@ -14,9 +14,11 @@ UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDe
 
 ### What UIApplicationMain does:
 - UIApplication creates your app's first instance: the shared application instance:
+
 ```swift
 UIApplication.sharedApplication()
 ```
+
 - UIApplicationMain also creates your app's second instance: the application's delegate
 - If the Info.plist file specifies a main storyboard file, UIApplicationMain loads it and looks inside it to find the view controller that is designated as this storyboard's _initial_ _view_ _controller_, and it instantiates this view controller (third instance)
 - If there was a main storyboard file, UIApplicationMain now creates your app's window (fourth instance)
@@ -37,6 +39,7 @@ UIApplication.sharedApplication()
 ### App Launch Without a storyboard
 Delete Main.storyboard and the ViewController.swift, and delete the entry in Targets->General->Deployment Info->Main Interface
 In AppDelegate, _application:didFinishLaunchingWithOptions_:
+
 ```swift
 self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
 self.window!.backgroundColor = UIColor.whiteColor()
