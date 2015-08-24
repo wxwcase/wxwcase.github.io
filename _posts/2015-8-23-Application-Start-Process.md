@@ -33,3 +33,14 @@ UIApplication.sharedApplication()
 - the window 
 - the initial view controller
 - the initial view controller's view and its subviews
+
+### App Launch Without a storyboard
+Delete Main.storyboard and the ViewController.swift, and delete the entry in Targets->General->Deployment Info->Main Interface
+In AppDelegate, _application:didFinishLaunchingWithOptions_:
+```swift
+self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+self.window!.backgroundColor = UIColor.whiteColor()
+self.window!.rootViewController = MyViewController(nibName:"MyViewController", bundle: nil)
+self.window!.makeKeyAndVisible()
+return true
+```
