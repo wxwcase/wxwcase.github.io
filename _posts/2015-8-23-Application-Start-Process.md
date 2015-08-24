@@ -3,7 +3,7 @@ layout: post
 title: How Application Start - iOS
 ---
 
-#### Your App's Entry Point
+### Your App's Entry Point
 Regardless of whether you write your own main.swift file or you rely on the swift @UIApplicationMain attribute, you are calling UIApplicationMain
 How a customized main.swift file looks like:
 
@@ -12,7 +12,7 @@ import UIKit
 UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDelegate))
 ```
 
-#### What UIApplicationMain does:
+### What UIApplicationMain does:
 - UIApplication creates your app's first instance: the shared application instance:
     ```swift
     UIApplication.sharedApplication()
@@ -28,7 +28,7 @@ UIApplicationMain(Process.argc, Process.unsafeArgv, nil, NSStringFromClass(AppDe
 	* If this view controller gets its view from a _.storyboard_ file or _.xib_ file, the corresponding nib is now loaded.
 	* Its objects are instantiated and initialized
 
-#### Initial Instances When App Loaed
+### Initial Instances When App Loaded
 - the shared application instance 
 - the window 
 - the initial view controller
