@@ -27,4 +27,3 @@ if NSClassFromString("SomeClassYouWant2Cast") != nil {
 }
 ```
 
-- 
