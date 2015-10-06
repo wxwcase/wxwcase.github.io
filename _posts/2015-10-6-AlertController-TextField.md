@@ -4,6 +4,7 @@ title: Add UITextField to UIAlertController
 --- 
 
 ### Add UITextField
+#### Code Snippet:
 ```swift
 @IBAction func addName(sender: AnyObject) {
   let alert = UIAlertController(title: "New Name", message: nil, preferredStyle: .Alert)
