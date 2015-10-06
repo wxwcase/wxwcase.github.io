@@ -4,6 +4,8 @@ title: Add UITextField to UIAlertController
 --- 
 
 ### Add UITextField
+This code snippet add a text field into the UIAlertController, and configure the placeholder text inside the text field.
+
 #### Code Snippet:
 ```swift
 @IBAction func addName(sender: AnyObject) {
