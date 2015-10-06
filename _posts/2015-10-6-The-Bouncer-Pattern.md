@@ -4,7 +4,7 @@ title: The Bouncer Pattern
 --- 
 
 ### Original post 
-[The original post about the Bouncer Pattern](http://rikschennink.nl/thoughts/the-bouncer-pattern/) 
+<a href="http://rikschennink.nl/thoughts/the-bouncer-pattern/" target="_blank">The original post about the Bouncer Pattern</a>
 
 ### What can be done in Swift
 ```swift
